@@ -1,5 +1,6 @@
+server:
+  port: ${SERVER_PORT}
 spring:
-  port: 80
   config:
     import: optional:file:.env[.properties]
   h2:
